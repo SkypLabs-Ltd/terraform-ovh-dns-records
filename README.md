@@ -33,10 +33,6 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_ovh_application_key"></a> [ovh\_application\_key](#input\_ovh\_application\_key) | The OVH API application key. | `string` | `null` | no |
-| <a name="input_ovh_application_secret"></a> [ovh\_application\_secret](#input\_ovh\_application\_secret) | The OVH API application secret. | `string` | `null` | no |
-| <a name="input_ovh_consumer_key"></a> [ovh\_consumer\_key](#input\_ovh\_consumer\_key) | The OVH API consumer key. | `string` | `null` | no |
-| <a name="input_ovh_endpoint"></a> [ovh\_endpoint](#input\_ovh\_endpoint) | Specify which API endpoint to use. | `string` | `null` | no |
 | <a name="input_records"></a> [records](#input\_records) | DNS records. | <pre>set(object({<br>    name    = string<br>    type    = string<br>    ttl     = number<br>    targets = list(string)<br>  }))</pre> | n/a | yes |
 | <a name="input_zone"></a> [zone](#input\_zone) | The DNS zone to add the records to. | `string` | n/a | yes |
 

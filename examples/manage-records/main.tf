@@ -1,7 +1,3 @@
-provider "ovh" {
-  endpoint = var.ovh_endpoint
-}
-
 locals {
   zone = "example.com"
 
