@@ -11,4 +11,3 @@ resource "ovh_domain_zone_record" "this" {
   ttl       = each.value.ttl
   target    = each.value.target
 }
-
